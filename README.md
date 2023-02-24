@@ -25,3 +25,13 @@ Yes, Based on the R2 value of 0.71, this linear model is effective in predicting
 -Question :The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
 When we take a look at the summary statistics for the entire dataset, the variance = 62.29 which is withing the tolerance establised by the manufacturing design specifications.    However, when we break it down by the manufacturing lots, we can see that the previous variance of the entire dataset was strongly skewed by the variance in lot 3 which is not within the design specifications.  
+
+## T-Tests on Suspension Coils
+
+![ttest.png](images/ttest.png)
+![ttestsubset.png](images/ttestsubset.png)
+
+We tested each lot's sample mean against the population mean of 1500 PSI and discovered the following:
+Lot 1 and 2 suggests that there is a signifcant relationship between the variables being tested and enough evidence to reject the null hypothesis.   The p-value of lot 1 & 2 were 100% and 60%.    The p-value of lot 3 was under 5% suggesting that there may not be enough evidence to reject the null hypothesis.  
+
+
