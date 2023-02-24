@@ -34,4 +34,8 @@ When we take a look at the summary statistics for the entire dataset, the varian
 We tested each lot's sample mean against the population mean of 1500 PSI and discovered the following:
 Lot 1 and 2 suggests that there is a signifcant relationship between the variables being tested and enough evidence to reject the null hypothesis.   The p-value of lot 1 & 2 were 100% and 60%.    The p-value of lot 3 was under 5% suggesting that there may not be enough evidence to reject the null hypothesis.  
 
+## Study Design: MechaCar vs Competition
+
+In quantifying how MechaCar performs against the competition i believe that the most important consumer preferences are price, fuel-efficiency, safety-ratings and maintenance costs.    The testing will need to be seperated by class in order to get an accurate representation of comparison.  The null hypothesis is that MechaCar out performs the competitiion with lower cost, better fuel-efficiency, better safety ratings and lower maintence costs.   The alternative hypothesis is tha the competition out performs MechaCar with lower cost, better fuel-efficiency, better safety ratings and lower maintence costs.   Performing t-test between the two groups on each category by class will provide a depiction of whether to reject the null hypothesis.  Gathering the per class average for price, fuel-efficiency, safety-ratings and maintenance costs for both MechaCar and the competitor would be necessary in order to run these tests.  
+
 
